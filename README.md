@@ -1,30 +1,30 @@
-Challenge Literalura
+# Challenge Literalura
 
 ¡Bienvenido(a) a Literalura! 📚
 
 Literalura es una aplicación que te permite gestionar tu biblioteca personal de libros.
 
-¿Qué puedes hacer con Literalura? 
+## ¿Qué puedes hacer con Literalura? 
 
-Buscar libros por título en la API
+- Buscar libros por título en la API
 
-Buscar libros por autor que se encuentre en la base de datos.
+- Buscar libros por autor que se encuentre en la base de datos.
 
-Listar libros y autores registrados.
+- Listar libros y autores registrados.
 
-Buscar autores vivos en un año específico.
+- Buscar autores vivos en un año específico.
 
-Listar libros por idioma.
+- Listar libros por idioma.
 
-Obtener el top 10 de libros más buscados.
+- Obtener el top 10 de libros más buscados.
 
-Generar estadísticas sobre las descargas de libros.
+- Generar estadísticas sobre las descargas de libros.
 
-¿Cómo funciona Literalura?
+## ¿Cómo funciona Literalura?
 
 Literalura utiliza una API externa para obtener información sobre libros y autores: https://gutendex.com/ También almacena información en una base de datos local para que puedas acceder a ella incluso sin conexión a internet.
 
-Estructura del proyecto:
+## Estructura del proyecto:
 
 src/main/java:
 
@@ -42,26 +42,26 @@ src/main/resources: Contiene los archivos de configuración de la aplicación.
 
 pom.xml: Contiene las dependencias del proyecto.
 
-Tecnologías utilizadas:
+## Tecnologías utilizadas:
 
 Java 17
 Spring Boot 3.2.4
 PostgreSQL
 Maven
 
-Instalación
+## Instalación
 
-Clona el repositorio:
+### Clona el repositorio:
 
 git clone https://github.com/tu-usuario/tu-proyecto.git
 cd tu-proyecto
 Configura la base de datos PostgreSQL y actualiza las credenciales en el archivo application.properties.
 
-Ejecuta la aplicación:
+### Ejecuta la aplicación:
 
 ./mvnw spring-boot:run
 
-Uso
+## Uso
 
 ![image](https://github.com/MToro2024/literalura-ch-3/assets/160083161/d96cbe48-6939-4228-a533-b3cfbe5586f9)
 
