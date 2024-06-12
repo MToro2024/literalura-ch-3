@@ -45,8 +45,11 @@ pom.xml: Contiene las dependencias del proyecto.
 ## Tecnologías utilizadas:
 
 Java 17
+
 Spring Boot 3.2.4
+
 PostgreSQL
+
 Maven
 
 ## Instalación
